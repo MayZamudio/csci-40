@@ -1,0 +1,17 @@
+ _____ _____ _____    ____ ___  __  __ ____
+|_   _|_   _|_   _|  / ___/ _ \|  \/  |  _ \
+  | |   | |   | |   | |  | | | | |\/| | |_) |
+  | |   | |   | |   | |__| |_| | |  | |  __/
+  |_|   |_|   |_|    \____\___/|_|  |_|_|
+
+
+You must write code that will do the following:
+1) It will randomly generate a tic tac toe board using a given random seed
+2) Your code must successfully identify:
+    A) a winning board state for X
+    B) a winning board state for O
+    C) a draw (full board, no winner)
+    D) nothing exciting
+    E) Error - there's a lot of ways for the board to be in an error state
+
+    You figure it out

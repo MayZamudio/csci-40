@@ -1,0 +1,27 @@
+Work in partners to make a virtual world or roleplaying game.
+  
+Each is worth one letter grade:
+
+1) Track Player Location and Display It. (Any way you want - each of these is
+pretty open ended.)
+2) 5 puzzles that the player must solve to win, using 5 functions.
+
+3) There must be some sort of "combat", with something resembling health and
+levels (i.e. the player must grow stronger over time). It must roll random
+numbers for combat.
+
+4) Dialogue - the player must have 20 or more lines of spoken dialogue in the
+virtual world. AI controlled players (NPCs) must have 20 or more lines of
+spoken dialogue. These lines should all be different, not copy-pasted. These
+lines should all be different, not copy-pasted.
+
+5) Worldbuilding - You must have 40+ sentences of description in your world.
+You must do this even if you build your project in Unity or Unreal Engine, and
+not text-based on the server.
+
+6) Extra Credit - Do one or more of the following: A) An inventory system, B)
+Have some music that you composed yourself, C) A world map the user can walk
+around on.
+
+If you are interested in more advanced coding, I have included source code for
+a scrollable world map. Type "make" to build the project instead of "compile".
