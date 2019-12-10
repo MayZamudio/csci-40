@@ -1,0 +1,88 @@
+============
+ WORDSEARCH
+============
+
+For this assignment you will create a fully functional word search solver.
+
+Word searches are letter puzzles in which the user has to find words within an
+NxN block of letters.
+
+Visit http://thewordsearch.com/ to see examples of how this works if you are
+not familiar with the process.
+
+The program will take place in phases:
+
+====================================
+
+PHASE 1 - The user will enter the letters for the word search. For example:
+TNA
+AZR
+CQE
+
+(Followed by a blank line to indicate you are done.)
+
+The program must vet the input. If any of these rules are violated, die():
+1) The input must be NxN (in other words, equal number of rows and columns)
+2) The minimum size is 3x3. If any lines are entered of size < 3, die
+immediately. (Don't keep processing.)
+3) The input must all be UPPERCASE letters. (no lowercase, no numbers, etc.)
+Die immediately if they ever enter a non-uppercase letter.
+
+The program must then output the letters entered.
+
+The program will then prompt the user if they want to continue.
+
+====================================
+
+PHASE 2 - Load the system dictionary
+
+You must open the following file: /usr/share/dict/words
+
+Read all words out of it that meet the following criteria:
+1) Word length of 3 or greater
+2) All lower case
+3) All letters (no numbers, special characters, etc.)
+
+You will then output how many words will loaded.
+
+And then prompt the user if they want to continue.
+
+====================================
+
+PHASE 3 - Output all words in the word search
+
+You must then output all words in the dictionary that appear in the word
+search. The words can be held in the following orientations:
+1) Left to right
+2) Right to left
+3) Top to bottom
+4) Bottom to top
+5) Top left to bottom right (the main diagonal moving down right)
+6) Top right to bottom left (again, the main diagonal only)
+
+So with the following word search entered:
+BACS
+SOPE
+SATE
+WREN
+
+It will output:
+FOUND: ATE
+FOUND: CAB
+FOUND: ETA
+FOUND: OAR
+FOUND: PAW
+FOUND: SAT
+FOUND: SATE
+FOUND: SCAB
+FOUND: SEE
+FOUND: SEEN
+FOUND: SOP
+FOUND: SPA
+FOUND: WREN
+
+After that, you're done.
+Hint: start small, build up complexity
+
+I have provided you several helper functions you can use, such as how to find
+a string within another strong.
