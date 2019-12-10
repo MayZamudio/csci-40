@@ -1,0 +1,84 @@
+===========================================
+ ____   ___  _  _______ __  __  ___  _   _
+|  _ \ / _ \| |/ / ____|  \/  |/ _ \| \ | |
+| |_) | | | | ' /|  _| | |\/| | | | |  \| |
+|  __/| |_| | . \| |___| |  | | |_| | |\  |
+|_|    \___/|_|\_\_____|_|  |_|\___/|_| \_|
+
+===========================================
+
+You teach me and I'll teach you - Pokémon!
+
+Part 2 is to implement Pokémon battling!
+
+You should have finished part 1 before doing
+this. Copy your main.cc over from your
+previous folder: cp ../pokemon/main.cc .
+
+Unlike part 1, this is not autograded.
+You will be graded based on how much of
+the Pokémon ruleset you implement.
+
+To get an A you must do the following:
+
+========================================
+1) The user must select two Pokémon to battle, using either
+index or name (or both)
+
+The user must select up to four moves for each Pokémon.
+Moves should be selected by index or name (or both).
+If they don't select any moves, give the Pokémon 'Struggle'.
+
+2) The higher speed Pokémon will go first. On a tie, flip a
+coin. After that the Pokémon alternate turns.
+
+3) The user will select a move for the active Pokémon.
+It will do damage to the defending Pokémon.
+If the defending Pokémon reaches 0 hp, the attacker wins!
+
+The formula for damage is this:
+(power * attack)/defense * STAB * type_modifier
+
+Explanation:
+Power   - the power of the move (found in the move database)
+Attack  - the attack stat of the attacking pokemon
+Defense - the defense stat of the defending pokemon
+STAB    - see below
+type_modifier - see below
+========================================
+4) STAB
+
+If the type of the move matches the type of the pokemon, it will do +50% bonus
+damage. It can match on either type (so a fire move by a fire/ice pokemon would get
+the +50% bonus damage)
+
+If STAB applies, the multiplier is 1.5x
+If the types don't match, multiplier is 1x
+
+========================================
+
+5) Implement the type system from Pokémon.
+ If a Pokémon has the same type as the move it is
+ doing it should do 50% more damage. Some attacking types deal
+ extra damage or less damage to defending types, as shown here:
+ https://bulbapedia.bulbagarden.net/wiki/Type/Type_chart#Generation_I
+ I have copied the values into a file called "type_system.txt" for
+ you that you can use to look up the damage modifiers.
+
+I will give you a function that tells you which type corresponds to which
+row/column of the table (look at mapdemo.cc).
+
+========================================
+
+Extra Credit:
+An extra letter grade is available for implementing an "adventure mode"
+in which the player starts with one of four basic Pokémon and battles
+other, randomly generated, Pokémon over time. The player can either
+run away or fight it. If they fight it and win, it gets added to their
+roster of Pokémon they can use in a fight. If they lose, they die.
+
+Another letter grade is available if you make a top-down map that
+the user can walk around in OR if you add in extra mechanics for
+greater fidelity to the games, such as invisible values (IVs) and
+effort values (EVs), experience, evolutions, etc.
+                                                    
