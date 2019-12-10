@@ -1,0 +1,14 @@
+========================================
+            Triangle Testing
+========================================
+
+Your program will be very simple, in fact main is already done for you, and you only need to write a single function. This function will take in the length of the three sides of a triangle (three floats) and return if the given triangle is:
+A) Equilateral (3 equal sides)
+B) Isoceles (2 equal sides)
+C) Right (one of the interior angles is pi/2 radians, i.e. 90 degrees)
+D) Other (a triangle not one of the above)
+E) Error (the input doesn't describe a valid triangle)
+
+Resolve conflicts in the order above, so if it is both isoceles and right then return isoceles, for example.
+
+The triangle sides are not in any particular order.
