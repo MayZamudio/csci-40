@@ -1,0 +1,29 @@
+==========================================================
+ _____                 _   _
+|  ___|   _ _ __   ___| |_(_) ___  _ __
+| |_ | | | | '_ \ / __| __| |/ _ \| '_ \
+|  _|| |_| | | | | (__| |_| | (_) | | | |
+|_|   \__,_|_| |_|\___|\__|_|\___/|_| |_|
+
+  ____                           _   _ _   _
+ / ___|___  _ __ ___  _ __   ___| |_(_) |_(_) ___  _ __
+| |   / _ \| '_ ` _ \| '_ \ / _ \ __| | __| |/ _ \| '_ \
+| |__| (_) | | | | | | |_) |  __/ |_| | |_| | (_) | | | |
+ \____\___/|_| |_| |_| .__/ \___|\__|_|\__|_|\___/|_| |_|
+                     |_|
+
+==========================================================
+
+This is a timed event!
+
+You have to write five functions as quickly as possible. Open main.cc and
+you'll see five places where there is a comment saying //YOU
+
+Write the function signature around the YOU, for example:
+double f(double x) {
+    //YOU
+}
+
+And then fill in the missing code where it says YOU
+
+When you think you're done, type input_tester and see if you are.
