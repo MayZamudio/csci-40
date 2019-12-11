@@ -1,0 +1,60 @@
+==============================================
+ ____  _           _            _
+|  _ \| |__   ___ | |_ ___  ___| | ___  _ __
+| |_) | '_ \ / _ \| __/ _ \/ __| |/ _ \| '_ \
+|  __/| | | | (_) | || (_) \__ \ | (_) | |_) |
+|_|   |_| |_|\___/ \__\___/|___/_|\___/| .__/
+                                       |_|
+
+==============================================
+
+Introduction: This is an open-ended assignment in which you and your partner
+will be able to exercise both your programming skills and artistic side.
+
+I have given you operational code that will apply two image filters to an
+image. You should compile it (using "make" instead of "compile") and run it
+("a.out chenonceau.jpg") to get a feel for how it works: it will output the following:
+1) The time it took to load the image
+2) The time it took to darken it by 50%
+3) The time it took to sepia-tone it
+4) The time it took to write the file to disk
+
+The output file is called output.jpg (and isn't especially high quality).
+
+You can use an SCP client (like WinSCP if you are on Windows) to transfer
+files to and from your directory and test the code on any image you upload,
+and then download output.jpg and view the result.
+
+Your tasks:
+
+1) First, you must think of some other sort of image filter you might want to
+write, and then write it. Replace either the darken code or the sepia code
+with your new filter. The cooler the filter, the more points you will get, with
+up to a letter grade of extra credit for something super awesome.
+
+2) Second, do the same for the other filter.
+
+3) Third, you must draw your logo somewhere on the screen as a watermark to
+show who made the image. This can be as simple as doing a small red triangle in
+the bottom left corner, or as complicated as a signature. It should overwrite
+whatever image data was there before, and be visible to the naked eye.
+Extra Credit: More complicated logos can be awarded bonus points
+
+4) Finally, you must hide a secret message somewhere in the image, with a
+hashtag prepending it. The message itself is your choice, but it doesn't need to
+be longer than a word or two. You can hide it however you want, but the message
+must be recoverable by a third party somehow.
+
+Grading:
+You will earn one letter grade for each bullet point above, up to a maximum of a B (80%)
+before the extra credit is applied.
+
+In order to get an A or above, your project must be artistically impressive. We will bring
+in a panel of guest judges to give you an "artistic score" to go with your "technical
+score", like in ice skating. I recommend you think carefully about what image you choose
+to apply your filters to, and to the overall aesthetic of your image afterward. It is possible
+to create amazing art with relatively few lines of code, but most successful projects put
+a lot of time into experimenting with their code to get exactly the right effect they want.
+
+Note: If your color data overflows, it will likely get a zero for the artistic score, so make sure
+you write code that will prevent your RGB values from exceeding 255 or falling below 0.
