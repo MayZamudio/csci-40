@@ -1,0 +1,12 @@
+This is a folder to poke around and explore with linked list.
+  
+It will not be graded.
+
+There is some sample source code in there to get you started.
+
+See if you can figure out how to:
+1) Add new nodes to a linked list (at the beginning, or the end, or the
+middle)
+2) Print out all the data of a linked list using only the newest node
+3) Delete a node out of a list
+4) Search the list for a value
