@@ -1,0 +1,59 @@
+==============================================================
+ _____    _    ____ _____ _   _  ___  _   _   _    _  _______
+| ____|  / \  |  _ \_   _| | | |/ _ \| | | | / \  | |/ / ____|
+|  _|   / _ \ | |_) || | | |_| | | | | | | |/ _ \ | ' /|  _|
+| |___ / ___ \|  _ < | | |  _  | |_| | |_| / ___ \| . \| |___
+|_____/_/   \_\_| \_\|_| |_| |_|\__\_\\___/_/   \_\_|\_\_____|
+
+==============================================================
+
+This assignment is taken from the Bridges people, and can be found here -
+
+https://bridgesuncc.github.io/assignments/data//2-ListEQ/README.html
+
+The documentation in that link is broken, here is the API information for
+SLelement:
+https://bridgesuncc.github.io/doc/cxx-api/current/html/classbridges_1_1datastructure_1_1_s_lelement.html
+For ElementVisualizer:
+https://bridgesuncc.github.io/doc/cxx-api/current/html/classbridges_1_1datastructure_1_1_element_visualizer.html
+
+One letter grade will be given for each of these bullet points you do:
+1) Get your linked list visualized on the BRIDGES web site (this basically
+involves just getting your credentials plugged in and not breaking anything)
+
+For the next ones, you must loop over the linked list (keep getting getNext()
+until you get a null pointer) and get the data of each node in the linked list
+using getVisualizer() to get a pointer to the ElementVisualizer in it.
+
+2) You must change the size of each earthquake visualized based on the
+magnitude of the earthquake. It should scale from size 10 with a magnitude 1
+to a size 20 with a 5.0 or up. (So a magnitude 3 would be size 15.)
+
+3) You must change the shape of each earthquake to a diamond if it is in
+Alaska or a plus if it is in Hawaii
+
+4) You must change the color of it based on the magnitude:
+Magnitude <= 1.0 quakes - blue
+Magnitude 1.1 to 1.9 quakes - green
+Magnitude 2.0 to 2.9 quakes - yellow
+Magnitude 3.0 to 3.9 quakes - orange
+Magnitude 4.0 to 4.9 quakes - red
+Magnitude 5.0 and up quakes - purple
+
+5) Output the mean, median, and mode (for mode round to nearest whole number)
+for the earthquake data
+Sample output for a run (your username and project name will be different,
+don't worry, the autograder will ignore):
+
+Success: Assignment posted to the server.
+Check out your visualization at:
+
+http://bridges-cs.herokuapp.com/assignments/1005/wkerney
+
+AVERAGE = 2.2298
+MEDIAN = 1.72
+MODE = 1
+
+You can run my sample executable in /public/bridges_earthquake/a.out to verify
+your program is giving equivalent output. There is no autograder or inputfiles
+otherwise.
